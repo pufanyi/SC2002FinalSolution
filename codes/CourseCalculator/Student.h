@@ -18,7 +18,7 @@ class Student {
   std::string name;
 
  public:
-  Student(const std::string &name);
+  explicit Student(const std::string &name);
 
   const std::string &getName() const;
 
