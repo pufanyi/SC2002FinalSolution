@@ -6,10 +6,6 @@ CourseComponent::CourseComponent(const std::string &componentName,
                                  const double percentage, const int score)
     : componentName(componentName), percentage(percentage), score(score) {}
 
-double CourseComponent::getPercentage() const {
-  return percentage;
-}
+double CourseComponent::getPercentage() const { return percentage; }
 
-int CourseComponent::getScore() const {
-  return score;
-}
+int CourseComponent::getScore() const { return score; }

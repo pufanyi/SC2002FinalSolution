@@ -4,12 +4,12 @@
 #include <string>
 
 class CourseComponent {
-private:
+ private:
   std::string componentName;
-  double      percentage;
-  int         score;
+  double percentage;
+  int score;
 
-public:
+ public:
   CourseComponent(const std::string &componentName, double percentage,
                   int score);
 
@@ -18,4 +18,4 @@ public:
   int getScore() const;
 };
 
-#endif // COURSE_COMPONENT_H_
+#endif  // COURSE_COMPONENT_H_

@@ -4,10 +4,10 @@
 #include <string>
 
 class Student {
-private:
+ private:
   std::string name;
 
-public:
+ public:
   Student(const std::string &name);
 
   const std::string &getName() const;
@@ -15,4 +15,4 @@ public:
   virtual double calOverall() const = 0;
 };
 
-#endif // STUDENT_H_
+#endif  // STUDENT_H_
