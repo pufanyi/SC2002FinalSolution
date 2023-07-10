@@ -5,15 +5,14 @@
 
 class Student {
 private:
-    std::string name;
+  std::string name;
 
 public:
-    Student(const std::string &name);
+  Student(const std::string &name);
 
-    const std::string &getName() const;
+  const std::string &getName() const;
 
-    virtual double calOverall() const = 0;
+  virtual double calOverall() const = 0;
 };
-
 
 #endif // STUDENT_H_
