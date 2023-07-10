@@ -11,6 +11,8 @@
 #ifndef CODES_COURSECALCULATOR_POSTGRADUATE_H_
 #define CODES_COURSECALCULATOR_POSTGRADUATE_H_
 
+#include <string>
+
 #include "CourseComponent.h"
 #include "Student.h"
 

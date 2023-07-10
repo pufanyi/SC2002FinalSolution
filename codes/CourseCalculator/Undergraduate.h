@@ -8,8 +8,8 @@
  *
  */
 
-#ifndef UNDERGRADUATE_H_
-#define UNDERGRADUATE_H_
+#ifndef CODES_COURSECALCULATOR_UNDERGRADUATE_H_
+#define CODES_COURSECALCULATOR_UNDERGRADUATE_H_
 
 #include "CourseComponent.h"
 #include "Student.h"
@@ -29,4 +29,4 @@ class Undergraduate : public Student {
   double calOverall() const override;
 };
 
-#endif  // UNDERGRADUATE_H_
+#endif  // CODES_COURSECALCULATOR_UNDERGRADUATE_H_

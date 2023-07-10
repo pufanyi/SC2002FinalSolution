@@ -10,6 +10,8 @@
 
 #include "Undergraduate.h"
 
+#include <string>
+
 Undergraduate::Undergraduate(const std::string &name, const int assignmentGrade,
                              const int finalExamGrade)
     : Student(name),

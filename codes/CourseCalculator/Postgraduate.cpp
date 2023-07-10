@@ -10,6 +10,8 @@
 
 #include "Postgraduate.h"
 
+#include <string>
+
 Postgraduate::Postgraduate(const std::string &name, const int assignmentGrade,
                            const int researchReportGrade,
                            const int finalExamGrade)
