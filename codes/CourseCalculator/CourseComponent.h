@@ -1,5 +1,15 @@
-#ifndef COURSE_COMPONENT_H_
-#define COURSE_COMPONENT_H_
+/**
+ * @file CourseComponent.h
+ * @author Fanyi Pu (FPU001@e.ntu.edu.sg)
+ * @version 0.1
+ * @date 2023-07-10
+ *
+ * @copyright Copyright (c) 2023
+ *
+ */
+
+#ifndef CODES_COURSECALCULATOR_COURSECOMPONENT_H_
+#define CODES_COURSECALCULATOR_COURSECOMPONENT_H_
 
 #include <string>
 
@@ -18,4 +28,4 @@ class CourseComponent {
   int getScore() const;
 };
 
-#endif  // COURSE_COMPONENT_H_
+#endif  // CODES_COURSECALCULATOR_COURSECOMPONENT_H_

@@ -1,5 +1,15 @@
-#ifndef POSTGRADUATE_H_
-#define POSTGRADUATE_H_
+/**
+ * @file Postgraduate.h
+ * @author Fanyi Pu (FPU001@e.ntu.edu.sg)
+ * @version 0.1
+ * @date 2023-07-10
+ *
+ * @copyright Copyright (c) 2023
+ *
+ */
+
+#ifndef CODES_COURSECALCULATOR_POSTGRADUATE_H_
+#define CODES_COURSECALCULATOR_POSTGRADUATE_H_
 
 #include "CourseComponent.h"
 #include "Student.h"
@@ -21,4 +31,4 @@ class Postgraduate : public Student {
   double calOverall() const override;
 };
 
-#endif  // POSTGRADUATE_H_
+#endif  // CODES_COURSECALCULATOR_POSTGRADUATE_H_
