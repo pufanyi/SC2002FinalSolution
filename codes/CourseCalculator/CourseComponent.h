@@ -6,8 +6,8 @@
 class CourseComponent {
 private:
   std::string componentName;
-  double percentage;
-  int score;
+  double      percentage;
+  int         score;
 
 public:
   CourseComponent(const std::string &componentName, double percentage,

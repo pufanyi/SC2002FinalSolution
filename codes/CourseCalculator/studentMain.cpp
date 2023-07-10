@@ -13,7 +13,7 @@ void printOverall(const Student &student) {
 #include "Undergraduate.h"
 
 int main() {
-  Postgraduate postgraduate("John", 80, 90, 70);
+  Postgraduate  postgraduate("John", 80, 90, 70);
   Undergraduate undergraduate("Mary", 80, 70);
 
   printOverall(postgraduate);
