@@ -11,6 +11,8 @@
 #ifndef CODES_COURSECALCULATOR_UNDERGRADUATE_H_
 #define CODES_COURSECALCULATOR_UNDERGRADUATE_H_
 
+#include <string>
+
 #include "CourseComponent.h"
 #include "Student.h"
 

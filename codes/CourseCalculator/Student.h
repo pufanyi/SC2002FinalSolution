@@ -8,8 +8,8 @@
  *
  */
 
-#ifndef STUDENT_H_
-#define STUDENT_H_
+#ifndef CODES_COURSECALCULATOR_STUDENT_H_
+#define CODES_COURSECALCULATOR_STUDENT_H_
 
 #include <string>
 
@@ -25,4 +25,4 @@ class Student {
   virtual double calOverall() const = 0;
 };
 
-#endif  // STUDENT_H_
+#endif  // CODES_COURSECALCULATOR_STUDENT_H_
