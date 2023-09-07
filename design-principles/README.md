@@ -40,15 +40,15 @@ OCP: We design `<interface>` to be open for extension but closed for modificatio
 
 ### Understanding
 
-![](./images/ISP.svg)
+![ISP](./images/ISP.svg)
 
 ### What needs to be done
 
-If an interface contains several methods, split it into multiple interfaces and change them to end with "able."
+If an interface contains several methods, split it into multiple interfaces to let every interface contain only one method, and let the classes that need to implement the interface implement the corresponding interface.
 
 ### Template
 
-ISP: We split the original interface __ into several interfaces __, so that subclasses only rely on specific interfaces they need. This avoids unnecessary implementation of methods and increases interface cohesion, making maintenance easier.
+ISP: We split the original interface `<original interface>` into several interfaces `<interfaces after splitting>`, so that subclasses only rely on specific interfaces they need. This avoids unnecessary implementation of methods and increases interface cohesion, making maintenance easier.
 
 ## Dependency Injection Principle (DIP)
 
