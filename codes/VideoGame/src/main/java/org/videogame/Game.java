@@ -2,7 +2,18 @@ package org.videogame;
 
 import java.util.Scanner;
 
+/**
+ * The {@code Game} class provides a simple interactive game where the player can create and drive
+ * different types of vehicles such as cars and boats.
+ */
 public class Game {
+  /**
+   * Starts the game by allowing the player to create and drive a vehicle of the specified type (car
+   * or boat) based on user input.
+   *
+   * @param vehicleType The type of vehicle to create and drive (car or boat).
+   * @throws IllegalArgumentException if an invalid vehicle type is provided.
+   */
   public static void start(String vehicleType) {
     Vehicle vehicle;
     Scanner scanner = new Scanner(System.in);
