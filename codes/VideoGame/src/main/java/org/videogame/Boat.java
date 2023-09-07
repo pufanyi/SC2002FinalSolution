@@ -1,8 +1,9 @@
 package org.videogame;
 
 /**
- * The {@code Boat} class represents a type of vehicle specifically for boats. It extends the {@code Vehicle}
- * class and provides information about the boat's name, maximum speed, and propulsion method.
+ * The {@code Boat} class represents a type of vehicle specifically for boats. It extends the {@code
+ * Vehicle} class and provides information about the boat's name, maximum speed, and propulsion
+ * method.
  */
 public class Boat extends Vehicle {
 
@@ -10,7 +11,8 @@ public class Boat extends Vehicle {
   private final String propulsion;
 
   /**
-   * Constructs a new {@code Boat} object with the specified name, maximum speed, and propulsion method.
+   * Constructs a new {@code Boat} object with the specified name, maximum speed, and propulsion
+   * method.
    *
    * @param name The name of the boat.
    * @param maxSpeed The maximum speed of the boat.
@@ -31,8 +33,8 @@ public class Boat extends Vehicle {
   }
 
   /**
-   * Overrides the {@code drive} method from the parent class {@code Vehicle} to specify how the boat is driven,
-   * including the propulsion method and maximum speed.
+   * Overrides the {@code drive} method from the parent class {@code Vehicle} to specify how the
+   * boat is driven, including the propulsion method and maximum speed.
    */
   @Override
   public void drive() {

@@ -1,9 +1,9 @@
 package org.videogame;
 
 /**
- * The {@code Car} class represents a type of vehicle specifically for cars. It extends the {@code Vehicle}
- * class and provides information about the car's name, maximum speed, number of wheels, and number
- * of doors.
+ * The {@code Car} class represents a type of vehicle specifically for cars. It extends the {@code
+ * Vehicle} class and provides information about the car's name, maximum speed, number of wheels,
+ * and number of doors.
  */
 public class Car extends Vehicle {
 
@@ -14,8 +14,8 @@ public class Car extends Vehicle {
   private final int numDoors;
 
   /**
-   * Constructs a new {@code Car} object with the specified name, maximum speed, number of wheels, and
-   * number of doors.
+   * Constructs a new {@code Car} object with the specified name, maximum speed, number of wheels,
+   * and number of doors.
    *
    * @param name The name of the car.
    * @param maxSpeed The maximum speed of the car.
@@ -47,8 +47,8 @@ public class Car extends Vehicle {
   }
 
   /**
-   * Overrides the {@code drive} method from the parent class {@code Vehicle} to specify how the car is driven,
-   * including the maximum speed.
+   * Overrides the {@code drive} method from the parent class {@code Vehicle} to specify how the car
+   * is driven, including the maximum speed.
    */
   @Override
   public void drive() {
