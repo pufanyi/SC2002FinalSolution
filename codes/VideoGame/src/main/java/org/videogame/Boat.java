@@ -18,7 +18,7 @@ public class Boat extends Vehicle {
    * @param maxSpeed The maximum speed of the boat.
    * @param propulsion The propulsion method used by the boat.
    */
-  public Boat(String name, int maxSpeed, String propulsion) {
+  public Boat(final String name, final int maxSpeed, final String propulsion) {
     super(name, maxSpeed);
     this.propulsion = propulsion;
   }
