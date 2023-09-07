@@ -4,7 +4,7 @@
 
 ### Template
 
-SRP: We assign only one responsibility to a class, which is `<class with SRP>`. This makes the class more cohesive and easier to change.
+SRP: We assign `<class with SRP>` only one responsibility, which is `<responsibility of this class>`. This makes the class more cohesive and easier to change.
 
 ## Liskov Substitution Principle (LSP)
 
@@ -17,17 +17,13 @@ If a child is an upgraded version of the parent, when creating a method:
 
 ### When to use
 
-Inheritance relationship between classes (using "extends" not "implements").
-
-Class extends another class, whether it's abstract or not.
-Method override is involved.
+1. Inheritance relationship between classes (using "extends" not "implements").
+2. Class extends another class, whether it's abstract or not.
+3. Method override is involved.
 
 ### Template
 
-LSP: We make sure that a subclass is substitutable for its superclass. This means that the subclass follows the contract of the superclass and does not break its functionality.
-
-- Pre-condition: No stronger
-- Post-condition: No weaker
+LSP: We make sure that `<subclass>` is substitutable for its `<superclass>`. This means that `<subclass>` follows the contract of `<superclass>` and does not break its functionality.
 
 ## Open-Close Principle (OCP)
 
