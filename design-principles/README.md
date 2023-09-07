@@ -28,21 +28,26 @@ LSP: We make sure that `<subclass>` is substitutable for its `<superclass>`. Thi
 ## Open-Close Principle (OCP)
 
 ### When to use
-Multiple classes extend a common class.
-Multiple classes implement one or more interfaces (usually after splitting ISP).
+
+1. Multiple classes extend a common class.
+2. Multiple classes implement one or more interfaces (usually after splitting ISP).
 
 ### Template
-OCP: We design an interface to be open for extension but closed for modification. This means that we can add new features by creating subclasses, without changing existing code.
+
+OCP: We design `<interface>` to be open for extension but closed for modification. This means that we can add new features by creating subclasses, without changing existing code.
 
 ## Interface Segregation Principle (ISP)
 
 ### Understanding
 
-What needs to be done
+![](./images/ISP.svg)
+
+### What needs to be done
 
 If an interface contains several methods, split it into multiple interfaces and change them to end with "able."
 
 ### Template
+
 ISP: We split the original interface __ into several interfaces __, so that subclasses only rely on specific interfaces they need. This avoids unnecessary implementation of methods and increases interface cohesion, making maintenance easier.
 
 ## Dependency Injection Principle (DIP)
