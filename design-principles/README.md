@@ -1,5 +1,7 @@
 # Design Principles
 
+**Warning**: *The template is just an example for answering questions and is by no means applicable to all questions. Therefore, you need to understand the SOLID Design Principles rather than memorizing the template. In fact, the purpose of the template is to allow students who are not proficient in English to spend more time analyzing the structure rather than organizing language. Of course, you can also try to create your own template or contribute new templates to deepen your understanding.*
+
 ## Single Responsibility Principle (SRP)
 
 ### Template
@@ -53,7 +55,9 @@ ISP: We split the original interface `<original interface>` into several interfa
 ## Dependency Injection Principle (DIP)
 
 ### When to use
-There is an interface, and a class uses this interface as a dependency.
+
+There is an interface, and a class uses this interface (dependency).
 
 ### Template
-DIP: We make the class that uses this interface depend on the interface itself rather than concrete implementations of it. This decouples the modules and makes them more flexible and testable.
+
+DIP: We make `<class used the interface>` depend on `<interface>` rather than concretions such as `<classes implemented the interface>`. This decouples the modules and makes them more flexible and testable.
