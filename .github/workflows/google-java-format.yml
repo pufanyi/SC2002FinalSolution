@@ -1,8 +1,8 @@
-name: Format
+name: Java Format
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
